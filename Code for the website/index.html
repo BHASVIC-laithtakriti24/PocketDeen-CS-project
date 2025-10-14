@@ -1,11 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>pocketDeen</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PocketDeen</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #cde3cb;
+      text-align: center;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .supplications-section {
+      display: flex;
+      justify-content: space-around;
+      background-color: #f6d5b0;
+      padding: 20px;
+    }
+
+    .supplications-section > div {
+      width: 45%;
+    }
+
+    .articles-section {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 15px;
+      font-size: 18px;
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .nav-icons {
+      display: flex;
+      justify-content: space-around;
+      background-color: #f9f9f9;
+      padding: 15px;
+    }
+
+    .nav-item {
+      text-align: center;
+      width: 20%;
+    }
+
+    .prayer-times {
+      background-color: #ffe0a8;
+      padding: 15px;
+      margin: 15px;
+      border-radius: 8px;
+    }
+
+    .prayer-times table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .prayer-times th, .prayer-times td {
+      text-align: left;
+      padding: 8px;
+    }
+
+    .prayer-times a {
+      text-decoration: none;
+      color: darkblue;
+      font-weight: bold;
+    }
+
+    .external-links {
+      text-align: center;
+      padding: 10px;
+    }
+
+    .external-links button {
+      margin: 5px;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 6px;
+      background-color: #9bc4b9;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .external-links button:hover {
+      background-color: #8bb4a8;
+    }
+  </style>
 </head>
 <body>
-<h1>PocketDeen</h1>
-<p>This is my first paragraph.</p>
+
+  <header>
+    PocketDeen
+  </header>
+
+  <div class="supplications-section">
+    <div class="supplications-list">
+      <h2>Supplications</h2>
+      <p>(list of supplications)</p>
+    </div>
+    <div class="supplication-text">
+      <h2>Text of Supplications</h2>
+      <p>(text content here)</p>
+    </div>
+  </div>
+
+  <div class="articles-section">
+    <h3>Articles</h3>
+  </div>
+
+  <div class="nav-icons">
+    <div class="nav-item">
+      <p>🕌</p>
+      <p>Prayer</p>
+    </div>
+    <div class="nav-item">
+      <p>📖</p>
+      <p>Quran</p>
+    </div>
+    <div class="nav-item">
+      <p>🧭</p>
+      <p>Navigation</p>
+    </div>
+    <div class="nav-item">
+      <p>🤝</p>
+      <p>Community Support</p>
+    </div>
+  </div>
+
+  <div class="prayer-times">
+    <table>
+      <tr><th>Prayers</th><th>Times</th></tr>
+      <tr><td><a href="#">Fajr</a></td><td>5:00</td></tr>
+      <tr><td><a href="#">Dhur</a></td><td>1:00</td></tr>
+      <tr><td><a href="#">Asr</a></td><td>4:30</td></tr>
+      <tr><td><a href="#">Maghrib</a></td><td>7:30</td></tr>
+      <tr><td><a href="#">Isha</a></td><td>8:00</td></tr>
+    </table>
+  </div>
+
+  <div class="external-links">
+    <button>Go to Different Webpages</button>
+    <button>Go to Link Web</button>
+    <button>Move to Random</button>
+  </div>
+
+  <script>
+    // Write javascript code here
+  </script>
+
 </body>
 </html>
