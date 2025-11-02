@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+
+	body {
+		background-color: beige;
+		
+    }
+	.titleSquare {
+	
+		margin-top: 0px;
+		height: 50px;
+		width: 1595px;
+		padding: 20px;
+		margin: 0;
+		background-color: green;
+	}
+	
+	 
+
+    header {
+      background-color: black
+
+    }
+	h1{
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-right: 0px;
+		margin-left: 600px
+		
+	}
+	.supplicationsBox1{
+		margin-top: 100px;
+		margin-bottom:100px;
+		margin-right: 0px;
+		margin-left: 100px
+		height: 300px;
+		width: 350px;
+		padding: 125px;
+		background-color: gray;
+	}
+	
+	.supplicationsbox2{
+		margin-top: 100px;
+		margin-bottom:100px;
+		margin-right: 0px;
+		margin-left: 5000px
+		height: 300px;
+		width: 350px;
+		padding: 125px;
+		background-color: gray;
+	}
+	
+    .supplications-section {
+		
+
+    }
+
+    .supplications-section > div {
+      
+    }
+
+    .articles-section {
+      
+    }
+
+    .nav-icons {
+     
+    }
+
+    .nav-item {
+      
+    }
+
+    .prayer-times {
+        margin-top: 100px;
+		margin-bottom:100px;
+		margin-right: 0px;
+		margin-left: 5000px
+		height: 300px;
+		width: 350px;
+		padding: 125px;
+		background-color: gray;
+    }
+
+    .prayer-times table {
+      
+    }
+
+    .prayer-times th, .prayer-times td {
+      
+    }
+
+    .prayer-times a {
+		
+    }
+
+    .external-links {
+      
+    }
+
+    .external-links button {
+     
+    }
+
+    .external-links button:hover {
+      
+    }
+	
+	
+	
+	.myDiv {
+	border: 5px outset red;
+	background-color: lightblue;
+	text-align: center;
+  }
+
+	.style{
+	
+}
+  
+ 
