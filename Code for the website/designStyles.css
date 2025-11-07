@@ -13,6 +13,9 @@
 		padding: 20px;
 		margin: 0;
 		background-color: green;
+		font-size: 30px;
+		font-family: Arial, Helvetica, sans-serif;
+		
 	}
 	
 	 
@@ -25,33 +28,34 @@
 		margin-top: 0px;
 		margin-bottom: 0px;
 		margin-right: 0px;
-		margin-left: 600px
+		margin-left: 600px;
+		color: white;
 		
 	}
 	.supplicationsBox1{
-		margin-top: 100px;
-		margin-bottom:100px;
-		margin-right: 0px;
-		margin-left: 100px
-		height: 300px;
-		width: 350px;
-		padding: 125px;
-		background-color: gray;
+		margin-top: 100px;/**/
+		margin-bottom:100px;/**/
+		margin-right: 0px;/**/
+		margin-left: 0px;/**/
+		height: 100px;/**/
+		width: 350px;/**/
+		padding: 125px;/**/
+		background-color: #ffbb99;/**/
 	}
 	
-	.supplicationsbox2{
-		margin-top: 100px;
-		margin-bottom:100px;
-		margin-right: 0px;
-		margin-left: 5000px
-		height: 300px;
-		width: 350px;
-		padding: 125px;
-		background-color: gray;
+	.supplicationsbox2{/*box*/
+		margin-top: -125px; /**/
+		margin-bottom:0px;/**/
+		margin-right: 0px;/**/
+		margin-left: 700px;/**/
+		height: 100px;/**/
+		width: 700px;/**/
+		padding: 125px;/**/
+		background-color: #ffbb99;/**/
 	}
 	
     .supplications-section {
-		
+		/*hello*/ 
 
     }
 
@@ -72,14 +76,7 @@
     }
 
     .prayer-times {
-        margin-top: 100px;
-		margin-bottom:100px;
-		margin-right: 0px;
-		margin-left: 5000px
-		height: 300px;
-		width: 350px;
-		padding: 125px;
-		background-color: gray;
+        
     }
 
     .prayer-times table {
