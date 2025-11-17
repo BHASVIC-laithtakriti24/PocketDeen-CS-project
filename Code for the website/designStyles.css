@@ -2,60 +2,60 @@
 
 
 	body {
-		background-color: beige;
+		background-color: beige;/*changes the colour of the text*/
 		
     }
 	.titleSquare {
 	
-		margin-top: 0px;
-		height: 50px;
-		width: 1595px;
-		padding: 20px;
-		margin: 0;
-		background-color: green;
-		font-size: 30px;
-		font-family: Arial, Helvetica, sans-serif;
+		margin-top: 0px;/*changes position from the top*/
+		height: 45%;/*changes the objects size verticaly  */
+		width: 99%;/*changes the size of the object's length horizontaly */
+		padding: 30px;
+		margin: 0;/*changes the position of the text from the begging of the page*/
+		background-color: green;/*changes the colour of the text*/
+		font-size: 25px;/*changes the size of the text */
+		font-family: Arial, Helvetica, sans-serif;/*changes the style of the text*/
 		
 	}
 	
 	 
 
     header {
-      background-color: black
+      background-color: black/*changes the colour of the text*/
 
     }
 	h1{
-		margin-top: 0px;
-		margin-bottom: 0px;
-		margin-right: 0px;
-		margin-left: 600px;
-		color: white;
+		margin-top: 0px;/*changes position from the top*/
+		margin-bottom: 0px;/*changes position from the bottem*/
+		text-align: center;/*changes position from the right */
+		margin-left: 0;/*changes position from the left */
+		color: white;/*changes the colour of the text*/
 		
 	}
 	.supplicationsBox1{
-		margin-top: 100px;/**/
-		margin-bottom:100px;/**/
-		margin-right: 0px;/**/
-		margin-left: 0px;/**/
-		height: 100px;/**/
-		width: 350px;/**/
-		padding: 125px;/**/
-		background-color: #ffbb99;/**/
+		margin-top: 100px;/*changes position from the top*/
+		margin-bottom:0px;/*changes position from the bottem*/
+		margin-right: 0px;/*changes position from the right */
+		margin-left: 0px;/*changes position from the left */
+		height: 30%;/*changes the objects size verticaly  */
+		width: 45%;/*changes the size of the object's length horizontaly */
+		padding: 75px;/*increases/decreases the size of the border of the object*/
+		background-color: #ffbb99;/*changes the colour of supplicationsBox1 */
 	}
 	
-	.supplicationsbox2{/*box*/
-		margin-top: -125px; /**/
-		margin-bottom:0px;/**/
-		margin-right: 0px;/**/
-		margin-left: 700px;/**/
-		height: 100px;/**/
-		width: 700px;/**/
-		padding: 125px;/**/
-		background-color: #ffbb99;/**/
+	.supplicationsbox2{
+		margin-top: -12px; /*changes position from the top*/
+		margin-bottom:0px;/*changes position from the bottem*/
+		margin-right:0px;/*changes position from the right*/
+		margin-left:180px ;/*changes position from the left */
+		height: 90px;/*changes the objects size verticaly */
+		width: 115px;/*changes the size of the object's length horizontaly*/
+		padding: 12px;/*increases/decreases the size of the border of the object*/
+		background-color: #ffbb99;/*changes the colour of supplicationsBox2*/
 	}
 	
     .supplications-section {
-		/*hello*/ 
+		
 
     }
 
