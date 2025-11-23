@@ -2,117 +2,75 @@
 
 
 	body {
-		background-color: beige;/*changes the colour of the text*/
-		
-    }
+    background-color: beige;/*changes the colour of the text*/
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+	/* HEADER */
 	.titleSquare {
-	
-		margin-top: 0px;/*changes position from the top*/
-		height: 45%;/*changes the objects size verticaly  */
-		width: 99%;/*changes the size of the object's length horizontaly */
-		padding: 30px;
-		margin: 0;/*changes the position of the text from the begging of the page*/
-		background-color: green;/*changes the colour of the text*/
-		font-size: 25px;/*changes the size of the text */
-		font-family: Arial, Helvetica, sans-serif;/*changes the style of the text*/
-		
-	}
-	
-	 
-
-    header {
-      background-color: black/*changes the colour of the text*/
-
-    }
-	h1{
-		margin-top: 0px;/*changes position from the top*/
-		margin-bottom: 0px;/*changes position from the bottem*/
-		text-align: center;/*changes position from the right */
-		margin-left: 0;/*changes position from the left */
-		color: white;/*changes the colour of the text*/
-		
-	}
-	.supplicationsBox1{
-		margin-top: 100px;/*changes position from the top*/
-		margin-bottom:0px;/*changes position from the bottem*/
-		margin-right: 0px;/*changes position from the right */
-		margin-left: 0px;/*changes position from the left */
-		height: 30%;/*changes the objects size verticaly  */
-		width: 45%;/*changes the size of the object's length horizontaly */
-		padding: 75px;/*increases/decreases the size of the border of the object*/
-		background-color: #ffbb99;/*changes the colour of supplicationsBox1 */
-	}
-	
-	.supplicationsbox2{
-		margin-top: -12px; /*changes position from the top*/
-		margin-bottom:0px;/*changes position from the bottem*/
-		margin-right:0px;/*changes position from the right*/
-		margin-left:180px ;/*changes position from the left */
-		height: 90px;/*changes the objects size verticaly */
-		width: 115px;/*changes the size of the object's length horizontaly*/
-		padding: 12px;/*increases/decreases the size of the border of the object*/
-		background-color: #ffbb99;/*changes the colour of supplicationsBox2*/
-	}
-	
-    .supplications-section {
-		
-
-    }
-
-    .supplications-section > div {
-      
-    }
-
-    .articles-section {
-      
-    }
-
-    .nav-icons {
-     
-    }
-
-    .nav-item {
-      
-    }
-
-    .prayer-times {
-        
-    }
-
-    .prayer-times table {
-      
-    }
-
-    .prayer-times th, .prayer-times td {
-      
-    }
-
-    .prayer-times a {
-		
-    }
-
-    .external-links {
-      
-    }
-
-    .external-links button {
-     
-    }
-
-    .external-links button:hover {
-      
-    }
-	
-	
-	
-	.myDiv {
-	border: 5px outset red;
-	background-color: lightblue;
-	text-align: center;
-  }
-
-	.style{
+		background-color: green;/*changes the colour of the Title box*/
+		padding: 40px;/*increases/decreases the size of the border of the object*/
+		text-align: center;
+}
+	/*SUPPLACTION BOX*/
+	.supplicationsWhole {
+		display: flex; /*Puts boxes side by side*/
+		justify-content: space-between;
+		width: 90%;
+		margin: 40px auto;
 	
 }
-  
- 
+
+	.supplicationsBox1,
+	.supplicationsBox2 {
+		
+		width: 48%;
+		height: 150px;
+		text-align: center;
+		padding-top: 40px;
+		font-size: 20px;
+		background-color: #ffbb99;
+}
+
+	/* ARTICLES BOX */
+	.articles-box {
+		width: 90%;
+		margin: 20px auto;
+		height: 80px;
+		background-color: #e6e6e6;
+		text-align: center;
+		padding-top: 25px;
+		font-size: 24px;
+}
+
+	/* NAV ICONS */
+	.nav-icons {
+		display: flex;
+		justify-content: space-around;
+		width: 90%;
+		margin: 20px auto;
+}
+
+	.nav-item {
+		width: 22%;
+		height: 90px;
+		border: 2px solid black;
+		text-align: center;
+		padding-top: 30px;
+		background-color: white;
+}
+
+/* PRAYER TIMES SECTION */
+	.prayer-times {
+		background-color: #ffe6b3;
+		width: 90%;
+		margin: 40px auto;
+		padding: 20px;
+		border-radius: 15px;
+}
+
+	.prayer-times table{
+		width: 100%;
+		font-size: 20px;
+}
