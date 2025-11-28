@@ -3,38 +3,65 @@
 const now = new Date();
 console.log(now);
 
-let prayer1 = document.getElementById("fajr");// The variable for fajr
-let prayer2 = document.getElementById("dhuhr");//The variable for dhuhr
-let prayer3 = document.getElementById("asr");// The variable for asr
-let prayer4 = document.getElementById("maghrib");//The variable for maghrib
-let prayer5 = document.getElementById("isha");//The variable for isha
-let TimeTill = document.getElementById("timer")// sets the timer till the next prayer 
-	
+
 
 function TimeSet(){
+	let TimeTill = document.getElementById("timer")// sets the timer till the next prayer 
 	const day = data.getDate();
 	const hour = data.getHours();
 	const minutes = data.getMinutes();
 	
 	console.log(day, hours, minutes);
 {
-
-function TimeForFajr(FajrTime){
-	prayer1;
+// to get the ID
+function getIDForFajr(){
+	document.getElementById("fajr") = element.id;// The variable for fajr	
+	
+}
+function getIDForDhuhr(){
+	document.getElementById("dhuhr") = element.id;//The variable for dhuhr
 }
 
-function TimeForDhuhr(DhuhrTime){
-	prayer2;
+function getIDForAsr(){
+	document.getElementById("asr") = element.id;// The variable for asr
 }
 
-function TimeForAsr(AsrTime){
-	prayer3;
+function getIDForMaghrib(){
+	document.getElementById("maghrib") = element.id;//The variable for maghrib
 }
 
-function TimeForMaghrib(MaghribTime){
-	prayer4;
+function getIDForIsha(){	
+	document.getElementById("isha") = element.id;//The variable for isha
 }
 
-function TimeForIsha(IshaTime){	
-	prayer5; 
+
+// to change the ID 
+function changeIDForFajr() {
+
+	getIDForFajr();	
+	element.id = "5:45"
+	
+	concole.log(element)
 }
+
+function changeIDForDhuhr() {
+	getIDForDhuhr();	
+	
+}
+
+function changeIDForAsr() {
+	getIDForAsr();	
+	
+}
+
+function changeIDForMaghrib() {
+	getIDForMaghrib();	
+	
+}
+
+function changeIDForisha() {
+	getIDForIsha();	
+	
+}
+
+
