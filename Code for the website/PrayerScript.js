@@ -16,7 +16,7 @@ fetchPrayerTimes();
 
 async function fetchPrayerTimes() {
     try {// Sends request to API for Brighton, UK prayer timings
-        const response = await fetch("https://api.aladhan.com/v1/timingsByAddress?address=Brighton,UK");// The prayer Api
+        const response = await fetch("https://api.aladhan.com/v1/timingsByAddress/01-01-2025?address=Brighton%2C+UK&method=3&shafaq=general&tune=5%2C3%2C5%2C7%2C9%2C-1%2C0%2C8%2C-6&timezonestring=UTC&calendarMethod=UAQ");// The prayer Api
         const data = await response.json();
 		
 		// Throws an error if the response was unsuccessful
@@ -42,7 +42,17 @@ async function fetchPrayerTimes() {
     }
 }
 
-function countDownForNextPrayer(){//For the countDown
-	const now = new date();
-	
+countDownForNextPrayer();
+
+function countDownForNextPrayer() {
+    // Create a countdown variable 
+    s
+	let timer = "1hr 30m 21s"
+
+    // Update the element with id="timer"
+    document.getElementById("timer").textContent = timer;
+
+    // Get the current date and time
+    const now = new Date();
+    console.log("Current time:", now);
 }
