@@ -1,5 +1,3 @@
-
-
 // function to update the table in the HTML
 function getIDForPrayers() {
     document.getElementById("fajr").textContent = prayerTimes.fajr;
@@ -39,33 +37,38 @@ async function fetchPrayerTimes() {
         console.error(error);
     }
 }
-
 function findNextPrayerCountdown() {
     // get current time
-    let now = new Date();
+    var now = new Date();
 
     // list of prayers in order
-    let list = ["fajr", "dhuhr", "asr", "maghrib", "isha"];
+    var list = ["fajr", "dhuhr", "asr", "maghrib", "isha"];
 
     // go through each one
-    for (let i = 0; i < list.length; i++) {
-        let p = list[i];
+    for (var i = 0; i < list.length; i++) {
+        var p = list[i];
 
         // split the time into hours + minutes
-        let parts = prayerTimes[p];
-        let hour = parseInt(parts[0]);
+        var parts = prayerTimes[p];
+        var hour = parseInt(parts[0]);
         let minute = parseInt(parts[1]);
 
         // make a full date for today’s prayer time
-        let prayerTime = new Date(
+        var prayerTime = new Date(
             now.getFullYear(),
             now.getMonth(),
             now.getDate(),
             hour,
-            minute,
+            minute
         );
-	
 	}
-	console.log(prayerTime)
-}
-       
+	
+		
+		if (prayerTime > now) {
+            nextPrayerName = p;
+            nextPrayerTime = prayerTime;
+            return;
+        }
+		
+		console.log(prayerTime)
+	}
