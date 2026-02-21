@@ -13,9 +13,10 @@ fetchPrayerTimes();
 
 async function fetchPrayerTimes() {
     try {
-        const response = await fetch("https://api.aladhan.com/v1/timingsByAddress/01-01-2025?address=Brighton%2C+UK&method=3&shafaq=general&tune=5%2C3%2C5%2C7%2C9%2C-1%2C0%2C8%2C-6&timezonestring=UTC&calendarMethod=UAQ");// The prayer Api
+        const response = await fetch("https://api.aladhan.com/v1/timingsByCity/2026-02-21?city=Brighton%20and%20Hove&country=United%20Kingdom&method=2");// The prayer Api
         const data = await response.json();
 		
+
 		if(!response.ok){
 			throw new Error("could not fetch");
 		}
