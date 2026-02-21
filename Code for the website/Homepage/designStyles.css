@@ -2,78 +2,77 @@
 
 
 	body {
-    background-color: beige;/*changes the colour of the text*/
-	font-family: Arial, Helvetica, sans-serif;
-	margin: 0;
-	
+    background-color: beige; /* Sets the background colour of the whole page */
+	font-family: Arial, Helvetica, sans-serif; /* Sets the background colour of the whole page */
+	margin: 0; /* Removes the default space around the page */
 	}
 	
 	
 	/* HEADER */
 	.titleSquare {
-		background-color: green;/*changes the colour of the Title box*/
-		padding: 40px;/*increases/decreases the size of the border of the object*/
-		text-align: center;
-		
+		background-color: green; /* Makes the title box green */
+		padding: 40px; /* Adds space inside the box to make it bigger */
+		text-align: center; /* Puts the text in the middle */
 }
 	
 	/*SUPPLACTION*/
 	.supplications-section {
-		display: flex; /*Puts boxes side by side*/
+		display: flex;  /* Puts the boxes next to each other */
 		justify-content: space-between; /* Puts space between the boxes so they spread out */
-		width: 90%;
-		margin: 40px auto;
-	
+		width: 90%; /* Makes it take up 90% of the page width */
+		margin: 40px auto; /* Adds space above and below and centres it */
 	}
 	
 	.supplicationsBox {
 		
-		width: 48%;
-		height: 150px;
-		text-align: center;
-		padding-top: 40px;
-		font-size: 20px;
-		background-color: #ffbb99;
+		width: 48%; /* Makes each box nearly half the width */
+		height: 150px; /* Sets how tall the box is */
+		text-align: center; /* Puts the text in the middle */
+		padding-top: 40px; /* Pushes the text down inside the box */
+		font-size: 20px; /* Makes the writing bigger */
+		background-color: #ffbb99; /* Gives the box a light orange colour */
 }
 
 	/* ARTICLES BOX */
 	.articles-box {
-		width: 90%;
-		margin: 20px auto;
-		height: 80px;
-		background-color: #e6e6e6;
-		text-align: center;
-		padding-top: 25px;
-		font-size: 24px;
+		width: 90%; /* Makes it 90% of the page width */
+		margin: 20px auto; /* Adds space around it and centres it */
+		height: 80px; /* Sets how tall it is */
+		background-color: #e6e6e6; /* Makes it light grey */
+		text-align: center; /* Centres the text */
+		padding-top: 25px; /* Pushes the text down a bit */
+		font-size: 24px; /* Makes the text larger */
 }
 
 	/* NAV ICONS */
 	.nav-icons {
-		display: flex;
-		justify-content: space-between;
-		width: 90%;
-		margin: 20px auto;
+		display: flex; /* Puts the nav items in a row */
+		justify-content: space-between; /* Adds space between each item */
+		width: 90%; /* Makes it 90% of the page width */
+		margin: 20px auto; /* Adds space and centres it */
 }
 	.nav-item {
-		width: 22%;
-		height: 90px;
-		border: 2px solid black;
-		text-align: center;
-		padding-top: 30px;
-		background-color: white;
+		width: 22%; /* Makes each box about a quarter of the row */
+		height: 90px;  /* Sets the height */
+		border: 2px solid black;/* Adds a black outline around the box */
+		text-align: center; /* Centres the text */
+		padding-top: 30px; /* Moves the text down inside the box */
+		background-color: white; /* Makes the background white */
 }
+
 
 /* PRAYER TIMES SECTION */
 	.prayer-times {
-		background-color: #ffe6b3;
-		width: 90%;
-		margin: 40px auto;
-		padding: 20px;
-		border-radius: 15px;
+		background-color: #ffe6b3; /* Gives it a light yellow background */
+		width: 90%; /* Makes it 90% of the page width */
+		margin: 40px auto;/* Adds space above and below and centres it */
+		padding: 20px;/* Adds space inside the box */
+		border-radius: 15px;/* Rounds the corners */
 }
 
 	.prayer-times table{
-		width: 100%;
-		font-size: 20px;
-		text-align: center;
+		width: 100%; /* Makes the table fill the whole section */
+		font-size: 20px; /* Makes the writing bigger */
+		text-align: center;/* Centres all the text in the table */
+}
 }
