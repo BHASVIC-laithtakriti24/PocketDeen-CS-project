@@ -3,27 +3,30 @@
 
 	body {
     background-color: beige;/*changes the colour of the text*/
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	
+	}
+	
+	
 	/* HEADER */
 	.titleSquare {
 		background-color: green;/*changes the colour of the Title box*/
 		padding: 40px;/*increases/decreases the size of the border of the object*/
 		text-align: center;
+		
 }
-	/*SUPPLACTION BOX*/
-	.supplicationsWhole {
+	
+	/*SUPPLACTION*/
+	.supplications-section {
 		display: flex; /*Puts boxes side by side*/
-		justify-content: space-between;
+		justify-content: space-between; /* Puts space between the boxes so they spread out */
 		width: 90%;
 		margin: 40px auto;
 	
-}
-
-	.supplicationsBox1,
-	.supplicationsBox2 {
+	}
+	
+	.supplicationsBox {
 		
 		width: 48%;
 		height: 150px;
@@ -47,7 +50,7 @@
 	/* NAV ICONS */
 	.nav-icons {
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 		width: 90%;
 		margin: 20px auto;
 }
